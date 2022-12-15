@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './componenet/Greet';
-import Greet1 from './componenet/Greet1';
-import Welcome from './componenet/Welcome';
-import Hello from './componenet/Hello';
-import Hello1 from './componenet/Hello1';
-import GreetProps from './componenet/Greet-props';
-import WelcomeProps from './componenet/Welcome-props';
-import Message from './componenet/Message';
+// import Greet from './componenet/Greet';
+// import Greet1 from './componenet/Greet1';
+// import Welcome from './componenet/Welcome';
+// import Hello from './componenet/Hello';
+// import Hello1 from './componenet/Hello1';
+// import GreetProps from './componenet/Greet-props';
+// import WelcomeProps from './componenet/Welcome-props';
+// import Message from './componenet/Message';
+import Counter from './componenet/Counter';
+import FunctionClick from './componenet/FunctionClick';
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Greet/>
+        <FunctionClick></FunctionClick>
+        {/* <Greet/>
         <Greet1/>
         <Welcome/>
         <Hello/>
@@ -30,7 +33,8 @@ function App() {
         <WelcomeProps name='Bruce' heroName='Batman' />
         <WelcomeProps name='Clark' heroName='Superman'/>
         <WelcomeProps name='Diana' heroName='Wonder Woman'/>
-        <Message />
+        <Message /> */}
+        <Counter />
         <a
           className="App-link"
           href="https://reactjs.org"
